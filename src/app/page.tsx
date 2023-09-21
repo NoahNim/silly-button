@@ -1,7 +1,7 @@
-import Image from 'next/image'
+import Link from "next/link"
 
-export default function Home() {
+export default function Page() {
   return (
-    <h1>Hello, Next.js</h1>
+    <Link href="/buttonboard">Silly Buttons Board</Link>
   )
 }
