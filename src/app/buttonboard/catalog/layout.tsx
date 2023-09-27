@@ -3,7 +3,9 @@ export default function CatalogLayout({
 }: {
     children: React.ReactNode
 }) {
-    return (<section>
-        {children}
-    </section>)
+    return (
+        <div style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
+            {children}
+        </div>
+    )
 }

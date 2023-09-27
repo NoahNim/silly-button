@@ -3,7 +3,7 @@ export default function ButtonBoardLayout({
 }: {
     children: React.ReactNode
 }) {
-    return (<section>
+    return (<section style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
         {children}
     </section>)
 }
