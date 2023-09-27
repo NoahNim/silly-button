@@ -1,20 +1,8 @@
 import Link from "next/link"
-import { storage } from "../utils/cloud-stotage-auth"
+import { getLocations } from "../utils/square-auth"
 
-const listBuckets = async () => {
-    const [buckets] = await storage.getBuckets();
-
-    console.log("Buckets:")
-    buckets.forEach(bucket => {
-        console.log(bucket.name)
-    });
-}
-
-
-export default function Page() {
-
-
-    listBuckets()
+export default async function Page() {
+    await getLocations();
 
     return (
         <section>
