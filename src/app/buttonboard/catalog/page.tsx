@@ -128,7 +128,7 @@ export default function Page() {
     //     uploadCatalog()
     // }
 
-    uploadCatalog()
+    // uploadCatalog()
 
     return (
         <div>
