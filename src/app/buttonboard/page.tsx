@@ -10,8 +10,8 @@ export default async function Page() {
             <ul style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
                 <li style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
                     <Link href="/buttonboard/randomword">Generate Random Word</Link>
-                    <Link href="/buttonboard/catalog">Sqaure Catalog API Seeder</Link>
-                    <Link href="/buttonboard/customers">Square Customer API Seeder</Link>
+                    <Link href="/buttonboard/catalog">Sqaure Catalog API</Link>
+                    <Link href="/buttonboard/customers">Square Customer API</Link>
                 </li>
             </ul>
         </section>)
